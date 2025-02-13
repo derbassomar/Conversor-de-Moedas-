@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter 1 Real brasileiro para Dólar dos EUA</title>
+    <link rel="stylesheet" href="conversor.css">
+
+</head>
+<body>
+    <header class="HEAD">
+        <div class="logo"><img src="conversor-imagens/logo.jpg" alt="logo"></div>
+       <div class="conteiner-HEAD">
+        <nav class="navegar">
+            <ul class="navegador">
+                <li><a href="#" class="menu">Pessoal\Corporativo</a></li>
+                <li><a href="#" class="menu">Conversor</a></li>
+                <li><a href="#" class="menu">Enviar dinheiro</a></li>
+                <li><a href="#" class="menu">API de moedas</a></li>
+                <li><a href="#" class="menu">Ferramentas</a></li>
+                <li><a href="#" class="menu">Recursos</a></li>
+                <button class="BTN1-head">Entrar</button>
+                <button class="BTN1-head">Cadastrar</button>
+            </ul>
+        </nav>
+       </div>
+    </header>
+    <article class="textoCenter-conteiner">
+        <h1 class="texto1">Converter 1 Real brasileiro para Dólar dos EUA - Brazilian Reais para Dólares dos EUA</h1>
+    </article>
+
+    <section class="conteinr-conversor">
+        <div class="content-conversor">
+            <h1>Conversor de Reais para Dólares</h1>
+            <label for="reais">Quantos Reais eu tenho? R$</label>
+            <input type="number" id="reais" placeholder="Digite o valor em reais  BR"> 
+            <button onclick="converter()" class="BTN-conversor">Converter</button>
+            <p id="resultado"></p>
+        </div>
+    </section>
+    <article class="Compare-conteiner ">
+        <h1 class="compare-titulo">Taxas de câmbio em tempo real</h1>
+        <div class="Compare-content">
+            <h1 class="compare-titulo2">Compare mais de 100 moedas em tempo real</h1>
+    <table id="currencyTable">
+        <thead>
+            <tr>
+                <th>Moeda</th>
+                <th>Valor</th>
+                <th>Variação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <h1></h1>
+        </tbody>
+    </table>
+
+        </div>
+ </article>
+
+
+
+ <script src="conversor.js"></script>
+</body>
+</html>
