@@ -10,7 +10,7 @@ function converter() {
 
     let reais = parseFloat(inputReais.value);
 
-    // Verifica se o valor inserido é válido
+    
     if (isNaN(reais) || reais <= 0) {
         resultado.innerText = "Por favor, insira um valor válido.";
         resultado.style.color = "red";
